@@ -49,7 +49,14 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} JP Tutorial | Established 2002 |  All Rights Reserved.</p>
+        <p>
+    © 2000–2024 JP Tutorial. All Rights Reserved.  
+    Design & Developed by <strong>
+      <a href="https://codelura.in/" target="_blank" rel="noopener noreferrer">
+        Codelura
+      </a>
+    </strong>
+  </p>
       </div>
     </footer>
   );
